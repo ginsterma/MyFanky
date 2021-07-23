@@ -1,4 +1,4 @@
-## Willkommen auf der GitHub-Page von MyFanky!
+## Willkommen auf der GitHub-Page von MyFanky-LernApp!
 
 You can use the [editor on GitHub](https://github.com/ginsterma/MyFanky/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
