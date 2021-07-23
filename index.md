@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Willkommen auf der GitHub-Page von MyFanky!
 
 You can use the [editor on GitHub](https://github.com/ginsterma/MyFanky/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
