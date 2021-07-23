@@ -1,0 +1,67 @@
+﻿<Window x:Class="MyFanky.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyFanky"
+        mc:Ignorable="d"
+        Title="MyFanky - Deine LernApp" Height="615" Width="397">
+
+    <Canvas Margin="0,0,0,3">
+        <Canvas.Background>
+            <ImageBrush ImageSource="/back.jpg"/>
+        </Canvas.Background>
+        <Menu Background="AliceBlue" Height="23" Width="397">
+            <MenuItem Header="Daten">
+                <MenuItem Header="Lernen beginnen"/>
+                <Separator/>
+                <MenuItem Header="Neue Karte"/>
+                <MenuItem Header="Neuer Stapel"/>
+                <Separator/>
+                <MenuItem Header="Stapel löschen"/>
+                <MenuItem Header="Stapel öffnen"/>
+                <MenuItem Header="Speichern"/>
+                <Separator/>
+                <MenuItem Header="Beenden"/>
+
+            </MenuItem>
+
+            <MenuItem Header="| Bearbeiten  ">
+                <MenuItem Header="Stapel bearbeiten"/>
+                <MenuItem Header="Karte bearbeiten"/>
+                <MenuItem Header="Karte löschen"/>
+
+            </MenuItem>
+
+            <MenuItem Header="|  Suchen  ">
+                <MenuItem Header="Stapel einladen"/>
+                <MenuItem Header="Stapel syncronisieren"/>
+                <MenuItem Header="Über uns"/>
+            </MenuItem>
+            <MenuItem Header="| Über uns  ">
+                <MenuItem Header="MY Fanki"/>
+            </MenuItem>
+            <MenuItem Header="| Hilfe  ">
+                <MenuItem Header="Verwendung"/>
+            </MenuItem>
+
+        </Menu>
+
+        <Canvas.Resources>
+            <!-- Ein Style der für alle Buttons in dem Canvas Gilt -->
+            <Style TargetType="Button">
+                <Setter Property="Width" Value="80"/>
+                <Setter Property="Height" Value="80"/>
+                <Style.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="25" />
+                    </Style>
+                </Style.Resources>
+            </Style>
+        </Canvas.Resources>
+
+
+
+    </Canvas>
+
+</Window>
